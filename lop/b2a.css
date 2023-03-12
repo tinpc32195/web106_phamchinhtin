@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+a{
+    color: black;
+}
+.header{
+    background-color: aqua;
+    box-shadow: 1px 1px 4px 0 rgba(red, green, blue, alpha);
+    position: fixed;
+    width: auto;
+    z-index: 10;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #aaa;
+}
+.header li a{
+    display: block;
+    padding: 20px;
+    border-right: 1px solid blue;
+    text-decoration: none;
+}
+.header li a:hover,
+.header .menu-btn:hover{
+    background-color: #f4f4f4;
+}
+.header .logo{
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding:10px 20px;
+    text-decoration: none;
+}
+.header .menu{
+    clear: both;
+    max-height: 0 ;
+    transition: max-height .2s ease-out;
+}
+.header .menu-icon .navicon{
+    background: #477;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+}

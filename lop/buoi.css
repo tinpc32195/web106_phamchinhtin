@@ -1,0 +1,27 @@
+nav {
+    background-color: rgb(0, 0, 0);
+}
+
+nav a {
+    display: inline-block;
+    color: #fff;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a.active {
+    background-color: green;
+}
+
+/*Xử lý giao diện trên kích thước màn hình tối đa 768px*/
+@media screen and (max-width: 768px) {
+    h2 {
+        text-align: center;
+        font-size: 7vw;
+    }
+
+    nav a {
+        width: 100vw;
+    }
+}

@@ -1,3 +1,29 @@
-.html{
-    background-color: aliceblue;
+@media screen {
+    #demo-id {
+        border: 10px;
+    }
+}
+
+@media screen {
+    #demo-id1 {
+        border: 1px;
+    }
+}
+
+#demo-id {
+    border: 10px;
+}
+
+#demo-id1 {
+    border: 20px;
+}
+
+body {
+    background-color: bisque;
+}
+
+@media all and (max-width: 370px) and (min-width:768px){
+    body {
+        background-color: aquamarine;
+    }
 }
