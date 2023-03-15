@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px){
+    .di{
+        text-align: center;
+        background-color: #4CAF50;
+    }
+    .head{
+        text-align: center;
+        width: 100%;
+    }
+    .foot{
+        margin: 5px auto;
+        max-width: 480px;
+    }
+}
+
